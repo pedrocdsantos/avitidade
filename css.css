@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(60, 60, 116);
+
+}
+header{
+    background-color: rgb(141, 202, 252);
+    padding: 3px;
+}
+a{
+    color: black;
+    text-shadow: (1px 1px 1px) white;
+
+}
+ul{
+    background-color: rgb(232, 255, 248);
+    display: flex;
+    align-content: center;
+    box-shadow: 2px 1px 1px;
+    width: auto;
+    height: auto;
+}
