@@ -1,59 +1,53 @@
-body{
-    background-color: rgb(60, 60, 116);
-
-}
-.header{
-    background-color: rgb(141, 202, 252);
-    padding: 3px;
-    justify-content:center;
-    display: flex;
-}
-.menu{
-    color: black;
-    text-shadow: (1px 1px 1px) white;
-    justify-content:center;
-    display: flex;
-
-}
-ul{
-    background-color: rgb(232, 255, 248);
-    display: flex;
-    justify-content:column; 
-    align-content: center:
-    box-shadow: 2px 1px 1px;
-    width: auto;
-    height: auto;
-    
-}
-@keyframes rainbow-gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.content {
-    flex: 1;
-    text-align: center;
-    padding: 50px;
-}
-
-footer {
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);   
-    background-size: 400% 400%;
-    animation: rainbow-gradient 5s linear infinite;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    width: 100%;
-}
+header{
+     background-color: rgb(141, 202, 252);
+     padding: 3px;
+     align-content: center;
+ }
+ a{
+     color: black;
+     text-shadow: (1px 1px 1px) white;
+     align-content: center;
+ 
+ }
+ ul{
+     background-color: rgb(232, 255, 248);
+     display: flex;
+     justify-content:column; 
+     align-content: center;
+     box-shadow: 2px 1px 1px;
+     width: auto;
+     height: auto;
+     
+ }
+ @keyframes rainbow-gradient {
+     0% { background-position: 0% 50%; }
+     50% { background-position: 100% 50%; }
+     100% { background-position: 0% 50%; }
+ }
+ 
+ body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+ 
+ .content {
+     flex: 1;
+     text-align: center;
+     padding: 50px;
+ }
+ 
+ footer {
+     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);   
+     background-size: 400% 400%;
+     animation: rainbow-gradient 5s linear infinite;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     font-size: 18px;
+     font-weight: bold;
+     position: relative;
+     width: 100%;
+ }
